@@ -1,8 +1,11 @@
+import os
+#install requirements
+os.system('pip install -r requirements.txt')
 
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv 
-import os
+
 
 load_dotenv()
 #get env variable from .env in current directory
